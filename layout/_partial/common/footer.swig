@@ -16,13 +16,10 @@
                             <i class="iconfont icon-email2"></i>
                             <span>{{ about.email }}</span>
                         </li>
-<<<<<<< HEAD
                         <li class="contact-info__item">
                             <i class="iconfont icon-address"></i>
                             <span>2017 皖ICP备17023807号</span>
                         </li>
-=======
->>>>>>> 4b234dc5effc61f135c8d6ada5da23c273fd39b0
                     </ul>
                 </div>
             </div>

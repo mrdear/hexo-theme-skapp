@@ -48,9 +48,6 @@
 
     {% block other %}
     {% endblock %}
-<<<<<<< HEAD
     {{ live2d() }}
-=======
->>>>>>> 4b234dc5effc61f135c8d6ada5da23c273fd39b0
 </body>
 </html>

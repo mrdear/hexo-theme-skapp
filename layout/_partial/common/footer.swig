@@ -16,10 +16,13 @@
                             <i class="iconfont icon-email2"></i>
                             <span>{{ about.email }}</span>
                         </li>
+<<<<<<< HEAD
                         <li class="contact-info__item">
                             <i class="iconfont icon-address"></i>
                             <span>2017 皖ICP备17023807号</span>
                         </li>
+=======
+>>>>>>> 4b234dc5effc61f135c8d6ada5da23c273fd39b0
                     </ul>
                 </div>
             </div>
@@ -55,8 +58,12 @@
             <p class="footer__copyright">©
                 <a href="https://github.com/Mrminfive/hexo-theme-skapp" target="_blank">Skapp</a> 2017 powered by
                 <a href="http://hexo.io/" target="_blank">Hexo</a>, made by 
+<<<<<<< HEAD
                 <a href="https://github.com/Mrminfive" target="_blank">minfive</a>, Hosted by 
                 <a href="https://pages.coding.me/" target="_blank">Coding Pages</a>.
+=======
+                <a href="https://github.com/Mrminfive" target="_blank">minfive</a>.
+>>>>>>> 4b234dc5effc61f135c8d6ada5da23c273fd39b0
             </p>
             <ul class="footer__social-network clearfix">
                 {% if site.data.contact %}

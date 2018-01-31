@@ -98,7 +98,11 @@ hexo.extend.generator.register('lunr', function(locals){
                 cates: cates.join(','),
                 href: '/' + post.path
             });
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> 4b234dc5effc61f135c8d6ada5da23c273fd39b0
             store['/' + post.path] = {
                 url: '/' + post.path,
                 title: post.title,

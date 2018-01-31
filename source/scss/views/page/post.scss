@@ -80,8 +80,11 @@ body {
 .post__content {
     @include post();
 
+<<<<<<< HEAD
     line-height: 2;
     
+=======
+>>>>>>> 4b234dc5effc61f135c8d6ada5da23c273fd39b0
     .post-announce {
         margin: 2em 0;
     }
@@ -130,6 +133,7 @@ body {
             text-align: right;
         }
     }
+<<<<<<< HEAD
 
     h1, h2, h3, h4, h5, h6 {
         color: #10a3ee;
@@ -143,4 +147,6 @@ body {
         border-radius: 3px;
         font-size: 13px;
     }
+=======
+>>>>>>> 4b234dc5effc61f135c8d6ada5da23c273fd39b0
 }

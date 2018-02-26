@@ -12,6 +12,10 @@
 <meta name="mobile-web-app-capable" content="yes" />
 <meta name="robots" content="all" />
 
+{% if theme.google_site_verification %}
+  <meta name="google-site-verification" content="{{ theme.google_site_verification }}" />
+{% endif %}
+
 <link rel="canonical" href="{{ url }}">
 
 <link rel="icon" type="image/png" href="{{ get_setting('favicon_ico') }}" sizes="32x32">

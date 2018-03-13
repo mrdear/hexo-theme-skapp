@@ -23,6 +23,7 @@ about:
 # Menu
 menu:
   home: /
+  read: http://read.mrdear.cn
   archive: /archives
   about: /about
 

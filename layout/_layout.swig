@@ -66,5 +66,7 @@
         })();
         </script>
     <!-- end百度推送 -->
+
+    {% include './_partial/common/math.swig' %}
 </body>
 </html>

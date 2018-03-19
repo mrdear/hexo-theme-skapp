@@ -15,6 +15,7 @@ error_page_bg: http://oobu4m7ko.bkt.clouddn.com/21312.jpg
 author:
   name: 屈定
   link: https://github.com/mrdear
+  avatar: https://avatars1.githubusercontent.com/u/13889883?v=3&s=460
 about:
   info: 本站定位为个人博客,主要记录自己成为程序员以来的成长历程.
   address: ShangHai, China
@@ -25,6 +26,7 @@ menu:
   home: /
   read: http://read.mrdear.cn
   archive: /archives
+  works: /works
   about: /about
 
 highlight_theme: normal

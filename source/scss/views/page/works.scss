@@ -1,0 +1,121 @@
+@import './index';
+
+.works-area {
+  margin-top: 50px;
+}
+
+.works-area .works-item {
+  width: 80%;
+  max-width: $mq-desktop--wide;
+
+  border-radius: 2px;
+  border: 1px solid #eee8d5;
+  margin: 25px auto;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .2);
+  background: white;
+  padding: 0 25px 15px;
+}
+
+.works-item-title {
+  font-size: 18px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+
+  .title-date {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 290486px;
+    display: inline-flex;
+    font-size: .75rem;
+    height: 2em;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    line-height: 1.5;
+    padding-left: .875em;
+    padding-right: .875em;
+    white-space: nowrap;
+    background-color: #363636;
+    color: #f5f5f5;
+    vertical-align: middle;
+    margin-top: 3px;
+  }
+}
+
+.works-item-img {
+  margin: auto -26px;
+  img {
+    width: 100%;
+  }
+}
+
+.works-item .works-content {
+  padding-top: 15px;
+  .use span {
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 3px;
+    padding: 0 4px;
+    border: thin solid #795548;
+  }
+  .text-warning {
+    span{
+      padding: 3px;
+      margin-right: 10px;
+      margin-bottom: 5px;
+    }
+    span:hover {
+      background-color: #10a3ee;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (max-width: $mq-desktop) {
+  .works-area .works-item {
+    width: 100%;
+  }
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}

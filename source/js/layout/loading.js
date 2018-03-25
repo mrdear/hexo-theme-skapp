@@ -1,6 +1,5 @@
 // loading
 document.onreadystatechange = function(){
-    var page = document.getElementById('page');
     var timeout;
     if (document.readyState === 'interactive') {
         timeout = window.setTimeout(function(){
@@ -9,7 +8,8 @@ document.onreadystatechange = function(){
     }
 
     if (document.readyState === 'complete') {
-        if (page.classList.contains('js-hidden')) {
+        var page2 = document.getElementById('page');
+        if (page2.classList.contains('js-hidden')) {
             disableLoad();
             clearTimeout(timeout)
         }

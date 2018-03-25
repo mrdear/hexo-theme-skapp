@@ -2,10 +2,12 @@
 
 .works-area {
   margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .works-area .works-item {
-  width: 80%;
+  width: 40%;
   max-width: $mq-desktop--wide;
 
   border-radius: 2px;
@@ -18,9 +20,11 @@
 
 .works-item-title {
   font-size: 18px;
-  margin: 0;
+  margin: 10px auto;
+  border-bottom: 1px solid #333;
   display: flex;
   justify-content: space-between;
+  color: #333;
 
   .title-date {
     -webkit-box-align: center;
@@ -45,38 +49,40 @@
 }
 
 .works-item-img {
-  margin: auto -26px;
+  margin: auto 0;
   img {
     width: 100%;
   }
 }
 
 .works-item .works-content {
-  padding-top: 15px;
   .use span {
     display: inline-block;
     font-size: 12px;
     border-radius: 3px;
     padding: 0 4px;
-    border: thin solid #795548;
+    border: 1px solid #1d1836;
   }
   .text-warning {
     span{
       padding: 3px;
       margin-right: 10px;
       margin-bottom: 5px;
-    }
-    span:hover {
-      background-color: #10a3ee;
-      color: #fff;
-      cursor: pointer;
+      &:hover{
+        cursor: pointer;
+      }
     }
   }
 }
 
 @media screen and (max-width: $mq-desktop) {
+  .works-area{
+    justify-content: center;
+    flex-wrap: wrap;
+  }
   .works-area .works-item {
     width: 100%;
+    flex-grow: 1;
   }
 }
 

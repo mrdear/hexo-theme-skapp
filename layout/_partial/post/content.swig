@@ -49,14 +49,19 @@
         {{ render(page.content) }}
         {% if page.editor %}
         <blockquote class="post-announce">
-            {{ __('copyright_statement.one') }}
-            <a href="{{ page.editor.link }}">{{ page.editor.name }}</a> {{ __('copyright_statement.two') }}：{{ page.editor.name }}（<a href="{{ page.editor.link }}">{{ page.editor.link }}</a>）
+            <ul>
+                <li>{{ __('copyright_statement.one') }}<a href="{{ page.editor.link }}">{{ page.editor.name }}</a>{{ __('copyright_statement.two') }}。 </li>
+                <li>{{ page.editor.name }}（<a href="{{ page.editor.link }}">{{ page.editor.link }}</a>） </li>
+            </ul>
+
         </blockquote>
         {% else %}
         <blockquote class="post-announce">
-            {{ __('copyright_statement.three') }}
-            <a href="{{ config.url }}">{{ get_setting('title') }}</a>
-            {{ __('copyright_statement.four') }}：{{ get_setting('title') }}（<a href="{{ config.url }}{{ url_for(page.path) }}">{{ config.url }}{{ url_for(page.path) }}</a>）
+            <ul>
+                <li>版权声明: {{ __('copyright_statement.three') }}<a href="{{ config.url }}">{{ get_setting('title') }}</a>{{ __('copyright_statement.four') }}。 </li>
+                <li>文章标题: <a href="{{ config.url }}{{ url_for(page.path) }}">{{ page.title }}</a> </li>
+                <li>文章链接: <a href="{{ config.url }}{{ url_for(page.path) }}">{{ config.url }}{{ url_for(page.path) }}</a> </li>
+            </ul>
         </blockquote>
         {% endif %}
 

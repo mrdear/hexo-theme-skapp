@@ -18,19 +18,18 @@
       </div>
 
       <div class="works-content">
+        <p class="text-muted"> {{ project.direction }} </p>
 
         <div class="use text-warning">
-          {% for arrayVal in project.use %}
-          <span>
+            {% for arrayVal in project.use %}
+              <span>
             {{ arrayVal }}
           </span>
-          {% endfor %}
+            {% endfor %}
         </div>
-
-        <p class="text-muted"> {{ project.direction }} </p>
       </div>
 
-      <div style="margin-top: 30px;">
+      <div style="margin-top: 10px;">
         <a href="{{ project.link }}" target="_blank">
           Open it
         </a>

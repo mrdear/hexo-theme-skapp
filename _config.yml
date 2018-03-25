@@ -1,7 +1,3 @@
-# Math Equations Render Support
-math:
-  enable: false
-
 # Site
 title: 屈定's Blog
 subtitle: 屈定's Blog
@@ -29,7 +25,7 @@ menu:
   home: /
   read: http://read.mrdear.cn
   archive: /archives
-  works: /works
+#  works: /works
   about: /about
 
 highlight_theme: normal

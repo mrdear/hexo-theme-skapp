@@ -81,6 +81,8 @@ body {
     @include post();
 
     line-height: 2;
+    font-size: 16px;
+    font-weight: normal;
     
     .post-announce {
         margin: 2em 0;
@@ -131,20 +133,36 @@ body {
         }
     }
 
+    // custom scss start
+
     h1, h2, h3, h4, h5, h6 {
         color: #10a3ee;
     }
-
     code {
         padding: 2px 4px;
         word-wrap: break-all;
-        color: #fff;
-        background: #4d4d7b;
+        color: #0063C5;
         border-radius: 3px;
-        font-size: 13px;
+        font-size: 14px;
+        font-weight: 500;
+        &:before{
+            content: '`';
+        }
+        &:after{
+            content: '`';
+        }
     }
-
     strong{
         color: #000;
     }
+
+    img {
+        margin-top: 20px;
+    }
+
+    .highlight .code .comment {
+        color: #d9d903;
+    }
+
+    // custom scss end
 }

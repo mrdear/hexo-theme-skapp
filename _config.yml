@@ -1,7 +1,7 @@
 # Site
 title: 屈定's Blog
 subtitle: 屈定's Blog
-subtitle_desc: 编程是一件幸福的事情,不要让工作变得索然无味
+subtitle_desc: 厌倦需要变化，焦虑需要学习，失落需要价值
 keywords: IT小生, Java, Spring, Mybatis, 后端工程师,
 description: 日常学习与兴趣交流的个人博客
 introduction: 不思量，自难忘！
@@ -16,7 +16,7 @@ author:
   link: https://github.com/mrdear
   avatar: https://avatars1.githubusercontent.com/u/13889883?v=3&s=460
 about:
-  info: 本站定位为个人博客,主要记录自己成为程序员以来的成长历程.
+  info: 编程是一件幸福的事情,不要让你的工作变得索然无味.
   address: ShangHai, China
   email: niudear@foxmail.com
 

@@ -83,6 +83,7 @@ body {
     line-height: 2;
     font-size: 16px;
     font-weight: normal;
+    color: #674531;
     
     .post-announce {
         margin: 2em 0;
@@ -136,9 +137,39 @@ body {
     // custom scss start
 
     h1, h2, h3, h4, h5, h6 {
-        color: #10a3ee;
-        font-size: 1.5em;
+        font-family: "Heiti SC";
+        color: #0079D2;
+        font-size: 1.0em;
+        font-weight: bold;
     }
+
+    h1{
+        color: #0079D2;
+        font-size: 1.6em;
+        text-align: left;
+        line-height: 1.6em;
+        margin-top: 0.8em;
+        margin-bottom: 0.6em;
+    }
+
+    h2, h3 {
+        line-height: 1.5em;
+        margin-top: 1.8em;
+        margin-bottom: 0.5em;
+    }
+
+    h2 {
+        font-size: 1.35em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    a {
+        color: #4685C0;
+    }
+
     code {
         padding: 2px 4px;
         word-wrap: break-all;

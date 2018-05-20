@@ -23,11 +23,19 @@
         <h3 class="block__title">{{ __('aside.categorie') }}</h3>
         {{ list_categories({ order: -1, class: 'block' }) }}
     </div>
-    
+
     <div class="sidebar__block">
+        <h3 class="block__title">{{ __('aside.recommend') }}</h3>
+        <div class="block-image">
+            <img style="height: 100%;width: 100%" src="http://oobu4m7ko.bkt.clouddn.com/1526782816.png">
+        </div>
+    </div>
+    
+    <!-- 最新文章 -->
+    <!-- <div class="sidebar__block">
         <h3 class="block__title">{{ __('aside.latest_post') }}</h3>
         {{ latest_post(4) }}
-    </div>
+    </div> -->
 
     <div class="sidebar__block">
         <h3 class="block__title">{{ __('aside.tag') }}</h3>

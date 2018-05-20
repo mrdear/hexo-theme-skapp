@@ -64,7 +64,6 @@
             </ul>
         </blockquote>
         {% endif %}
-
         <div class="post__prevs">
             <div class="post__prev">
                 {% if page.next %}

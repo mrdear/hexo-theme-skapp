@@ -7,7 +7,7 @@ description: 日常学习与兴趣交流的个人博客
 introduction: 不思量，自难忘！
 favicon_ico: https://avatars1.githubusercontent.com/u/13889883?v=3&s=460
 logo: http://oobu4m7ko.bkt.clouddn.com/1518101048.png
-qrcode: http://oobu4m7ko.bkt.clouddn.com/1514796045.png?imageMogr2/thumbnail/!50p
+qrcode: http://oobu4m7ko.bkt.clouddn.com/wechat_public_free.jpg
 default_cover: http://oobu4m7ko.bkt.clouddn.com/1514801425.png
 header_cover: http://oobu4m7ko.bkt.clouddn.com/21312.jpg
 error_page_bg: http://oobu4m7ko.bkt.clouddn.com/21312.jpg
@@ -25,7 +25,6 @@ menu:
   home: /
   read: http://read.mrdear.cn
   archive: /archives
-#  works: /works
   about: /about
 
 highlight_theme: normal

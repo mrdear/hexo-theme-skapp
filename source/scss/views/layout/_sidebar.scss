@@ -232,3 +232,34 @@ $title-falg-w: 4px      !default;
         }
     }
 }
+
+// custom start
+
+.post-toc ol {
+    margin: 0;
+    padding: 0 2px 5px 10px;
+    text-align: left;
+    list-style: none;
+    font-size: $main-fs;
+    transition: opacity 2s linear;
+    a {
+        transition-property: all;
+        color: $main-color;
+        border-bottom-color: $main-color;
+
+        &:hover {
+            color: $main-color--hover;
+            border-bottom-color: $main-color--hover;
+        }
+    }
+}
+
+.sidebar-toc {
+    position: fixed;
+    top: 60px;
+}
+
+.sidebar-hidden {
+    display: none !important;
+}
+

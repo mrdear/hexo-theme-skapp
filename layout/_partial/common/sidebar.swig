@@ -24,7 +24,7 @@
         {{ list_categories({ order: -1, class: 'block' }) }}
     </div>
 
-    {% if page.content %}
+    {% if page.content && page.path != 'about/index.html' %}
         <div class="sidebar__block" id="sidebar-toc">
             <h3 class="block__title">{{ __('aside.article_categiry') }}</h3>
             <div class="post-toc">

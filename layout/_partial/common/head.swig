@@ -17,7 +17,7 @@
 {% endif %}
 
 <link rel="canonical" href="{{ url }}">
-<link rel="manifest" href="manifest.json" />
+<link rel="manifest" href="/manifest.json" />
 <link rel="icon" type="image/png" href="{{ get_setting('favicon_ico') }}" sizes="32x32">
 
 <!-- Prefetch -->

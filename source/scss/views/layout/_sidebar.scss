@@ -235,6 +235,15 @@ $title-falg-w: 4px      !default;
 
 // custom start
 
+// toc
+
+@media screen and (max-width: $mq-mobile) {
+
+    #sidebar-toc {
+        display: none !important;
+    }
+}
+
 .post-toc ol {
     margin: 0;
     padding: 0 2px 5px 10px;

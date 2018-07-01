@@ -46,3 +46,10 @@ function getPosition(element) {
         y: y
     };
 }
+
+function isMobile() {
+    if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)))
+        return true;
+    else
+        return false;
+}

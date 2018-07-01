@@ -5,12 +5,12 @@ subtitle_desc: 厌倦需要变化，焦虑需要学习，失落需要价值
 keywords: IT小生, Java, Spring, Mybatis, 后端工程师,
 description: 日常学习与兴趣交流的个人博客
 introduction: 不思量，自难忘！
-favicon_ico: http://oobu4m7ko.bkt.clouddn.com/avatar.png
+favicon_ico: /favicon.ico
 logo: http://oobu4m7ko.bkt.clouddn.com/1518101048.png
 qrcode: http://oobu4m7ko.bkt.clouddn.com/wechat_public_free.jpg
 default_cover: http://oobu4m7ko.bkt.clouddn.com/1514801425.png
-header_cover: http://oobu4m7ko.bkt.clouddn.com/21312.jpg
-error_page_bg: http://oobu4m7ko.bkt.clouddn.com/21312.jpg
+header_cover: http://oobu4m7ko.bkt.clouddn.com/21312%20%281%29.jpg
+error_page_bg: http://oobu4m7ko.bkt.clouddn.com/21312%20%281%29.jpg
 author:
   name: 屈定
   link: https://github.com/mrdear
@@ -29,7 +29,7 @@ menu:
 
 highlight_theme: normal
 
-loader_img: http://oo12ugek5.bkt.clouddn.com/blog/images/loader.gif
+loader_img: http://oobu4m7ko.bkt.clouddn.com/loading.gif
 
 google_site_verification: vI-8_Ee7chpyEu09yCt-bC91dWWmTx08Bb_Mv1gltl0
 

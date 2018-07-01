@@ -36,7 +36,7 @@
     <div class="sidebar__block">
         <h3 class="block__title">{{ __('aside.recommend') }}</h3>
         <div class="block-image">
-            <img style="height: 100%;width: 100%" src="http://oobu4m7ko.bkt.clouddn.com/1526782816.png">
+            <img style="height: 100%;width: 100%" src="http://oobu4m7ko.bkt.clouddn.com/QQ20180628-075215%20%281%29.png">
         </div>
     </div>
     

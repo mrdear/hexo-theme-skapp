@@ -33,13 +33,14 @@
         </div>
     {% endif %}
 
-    <div class="sidebar__block">
-        <h3 class="block__title">{{ __('aside.recommend') }}</h3>
-        <div class="block-image">
-            <img style="height: 100%;width: 100%" src="http://oobu4m7ko.bkt.clouddn.com/QQ20180628-075215%20%281%29.png">
+    {% if get_setting('recommend_img') %}
+        <div class="sidebar__block">
+            <h3 class="block__title">{{ __('aside.recommend') }}</h3>
+            <div class="block-image">
+                <img style="height: 100%;width: 100%" src="{{ get_setting('recommend_img') }}">
+            </div>
         </div>
-    </div>
-    
+    {% endif %}
     <!-- 最新文章 -->
     <!-- <div class="sidebar__block">
         <h3 class="block__title">{{ __('aside.latest_post') }}</h3>

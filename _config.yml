@@ -24,8 +24,8 @@ about:
 # Menu
 menu:
   home: /
-  archive: /archives
-  about: /about
+  archive: /archives/
+  about: /about/
 
 highlight_theme: normal
 

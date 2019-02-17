@@ -32,7 +32,7 @@
             </div>
         </div>
     {% endif %}
-
+    <!--
     {% if get_setting('recommend_img') %}
         <div class="sidebar__block">
             <h3 class="block__title">{{ __('aside.recommend') }}</h3>
@@ -40,7 +40,7 @@
                 <img style="height: 100%;width: 100%" src="{{ get_setting('recommend_img') }}">
             </div>
         </div>
-    {% endif %}
+    {% endif %} -->
     <!-- 最新文章 -->
     <!-- <div class="sidebar__block">
         <h3 class="block__title">{{ __('aside.latest_post') }}</h3>

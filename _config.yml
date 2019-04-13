@@ -25,6 +25,7 @@ about:
 menu:
   home: /
   archive: /archives/
+  works: http://speed.mrdear.cn
   about: /about/
 
 highlight_theme: normal

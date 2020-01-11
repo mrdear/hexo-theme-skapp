@@ -18,7 +18,7 @@
                         </li>
                         <li class="contact-info__item">
                             <i class="iconfont icon-address"></i>
-                            <span>2017 皖ICP备17023807号</span>
+                            <span><a href="http://beian.miit.gov.cn" style="color: #69747a;text-decoration:none">2017 皖ICP备17023807号-1</a></span>
                         </li>
                     </ul>
                 </div>

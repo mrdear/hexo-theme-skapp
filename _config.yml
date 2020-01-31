@@ -21,14 +21,15 @@ about:
   address: HangZhou, China
   email: niudear@foxmail.com
 
-# Menu
+# Me
 menu:
   home: /
-  archive: /archives/
+  archive: /archives
   works: http://speed.mrdear.cn
-  about: /about/
+  about: /about
 
 highlight_theme: normal
+
 
 loader_img: http://imgblog.mrdear.cn/loading.gif
 

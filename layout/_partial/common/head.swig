@@ -20,6 +20,8 @@
 <link rel="manifest" href="/manifest.json" />
 <link rel="icon" type="image/png" href="{{ get_setting('favicon_ico') }}" sizes="32x32">
 
+<script data-ad-client="ca-pub-9024176106571603" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Prefetch -->
 {% include './prefetch.swig' %}
 

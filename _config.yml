@@ -24,9 +24,9 @@ about:
 # Me
 menu:
   home: /
-  archive: /archives
-  works: /works
-  about: /about
+  archive: /archives/
+  works: /works/
+  about: /about/
 
 highlight_theme: normal
 
